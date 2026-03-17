@@ -1,0 +1,52 @@
+# Terraform core files
+
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform lock file (OPTIONAL)
+
+# Keep this if you want consistent provider versions across team
+
+# Remove the below line if you want to track it
+
+#.terraform.lock.hcl
+
+# Sensitive variable files
+
+*.tfvars
+*.tfvars.json
+
+# CLI configuration files
+
+.terraformrc
+terraform.rc
+
+# Override files
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan output files
+
+*.tfplan
+
+# Local development files
+
+*.log
+*.tmp
+
+# OS / Editor files
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment files
+
+.env
+.env.*
